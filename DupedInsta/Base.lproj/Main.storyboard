@@ -117,11 +117,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="541" id="1Gk-RB-hzm" customClass="PostCell" customModule="DupedInsta" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="44.666666030883789" width="390" height="541"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="554" id="1Gk-RB-hzm" customClass="PostCell" customModule="DupedInsta" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.666666030883789" width="390" height="554"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1Gk-RB-hzm" id="8Ei-xz-9ab">
-                                            <rect key="frame" x="0.0" y="0.0" width="390" height="541"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="554"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0xn-0k-nPZ">
@@ -152,6 +152,7 @@
                                                 <constraint firstAttribute="trailing" secondItem="4SZ-mr-F8o" secondAttribute="trailing" constant="8" id="iBN-38-yr9"/>
                                                 <constraint firstItem="0xn-0k-nPZ" firstAttribute="top" secondItem="4SZ-mr-F8o" secondAttribute="bottom" constant="8" id="lYD-8h-gNm"/>
                                                 <constraint firstAttribute="trailing" secondItem="vhX-qT-PXU" secondAttribute="trailing" constant="8" id="ps4-fj-PBM"/>
+                                                <constraint firstItem="0xn-0k-nPZ" firstAttribute="top" secondItem="4SZ-mr-F8o" secondAttribute="bottom" constant="8" symbolic="YES" id="rBj-Ge-7xX"/>
                                                 <constraint firstItem="0xn-0k-nPZ" firstAttribute="leading" secondItem="8Ei-xz-9ab" secondAttribute="leading" constant="8" id="tLh-VR-mal"/>
                                             </constraints>
                                         </tableViewCellContentView>
