@@ -1,0 +1,6 @@
+framework module Pods_DupedInstaTests {
+  umbrella header "Pods-DupedInstaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
